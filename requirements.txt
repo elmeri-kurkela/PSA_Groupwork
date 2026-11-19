@@ -1,0 +1,21 @@
+
+# Backend framework
+fastapi
+uvicorn[standard]
+
+# Configuration and validation
+pydantic-settings
+
+# Database
+sqlalchemy
+alembic
+psycopg[binary]
+
+# Authentication
+PyJWT
+pwdlib[argon2]
+
+# Testing
+pytest
+httpx
+pytest-cov
